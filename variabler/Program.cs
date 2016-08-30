@@ -46,12 +46,37 @@ namespace variabler
             //Övning 3
             int celcius, farenheit;
 
-            Console.WriteLine("Mata in grader i celcius: ");
+            Console.Writeline("Mata in grader i celcius: ");
             string inputCelcius = Console.ReadLine();
             celcius = int.Parse(inputCelcius);
             Console.WriteLine("Det är " + (celcius * 1.8 + 32) + " " + "grader farenheit");
 
-     */
+    
+
+            //Övning 4
+
+            int celcius, farenheit;
+
+            Console.Write("Mata in grader i celcius: ");
+            string inputCelcius = Console.ReadLine();
+            celcius = int.Parse(inputCelcius);
+            Console.WriteLine("Det är " + (celcius * 1.8 + 32) + " " + "grader farenheit");
+
+     
+
+            //Övning 5
+
+            double radie, omkrets, area;
+
+            Console.Write("Mata in cirkelns radie i cm: ");
+            string inputRadie = Console.ReadLine();
+            radie = double.Parse(inputRadie);
+            Console.WriteLine("Area:" + " " + (radie * radie * 3.14));
+            Console.WriteLine("Omkrets:" + " " + (radie * 2 * 3.14));
+
+    */
+
+
         }
     }
 }
